@@ -1,0 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+@import 'base.css';
+.app{
+	display:flex;
+	flex-direction:column;
+}
+.app__arriba__info{
+	align-items:center;
+	display: flex;
+	justify-content: space-between;
+}
+.app__arriba__info div{
+	flex: 1;
+}
+.app__abajo{
+	display: flex;
+/*	flex-direction: row;
+*/	align-items:center;
+/*justify-content: space-around;*/
+}
+.app__abajo > *{
+	flex: 1;
+}
+.app__abajo .cancion_desc{
+	flex: 2;
+}

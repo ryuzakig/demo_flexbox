@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+font-size: 50px;
+text-align: center;
+text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
+}
+body, html{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	font-size: 1em;
+	background-color: #23A6AE;
+}
+table{
+	border-spacing: unset ;
+	width: 100%;
+}
+td{
+	padding: 15px;
+}
+.contenedor{
+	border-bottom-width: 70px;
+	border-radius:10px;
+	border:10px solid rgba(0,0,0,0.8);
+	box-shadow:0 0 50px  rgba(0,0,0,0.3);
+	height: 650px;
+	margin: 20px auto 30px auto;
+	width: 360px;
+}
+.app{
+	background-color: #fff;
+	height: 100%;
+	width: 340px;
+}
+.app__arriba{
+	background-color: #7D7070;
+	text-align: center;
+}
+.cancion{
+	padding: 20px;
+}
+.app__arriba__info{
+	background-color: #70B75A;
+}
+.app__arriba__info div{
+	padding: 10px;
+	color: #fff;
+}
+.app__centro{
+	overflow-y: scroll;
+}
+.app__abajo{
+	background-color: #7D7070;
+	text-align: center;
+	height: 90px;
+}
+
+.app__abajo .cancion_desc{
+	color: #fff;
+}
+.app__abajo .controles i{
+	color: #fff;
+}
+.playing{
+	background-color: #D8D2D2;
+}
